@@ -1,0 +1,263 @@
+body {
+  padding-bottom: 30px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#Nav {
+  background: transparent;
+  background-color: transparent;
+  position: relative;
+  align-content: start;
+  top: 0%;
+}
+
+.navbar-inner {
+  background: transparent;
+}
+
+#box1 {
+  background-image: url(desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15em;
+  /* margin: 0.2em; */
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#box2 {
+  background-color: rgb(36, 187, 187);
+  text-align: center;
+  padding: 30px;
+  /* margin: 0.2em; */
+  color: white;
+  /* width: fit-content;
+  max-width: fit-content; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 790em;
+}
+
+table {
+  padding: 30px;
+}
+
+td {
+  padding: 90px;
+  margin: 30px;
+  text-align: left;
+}
+
+img {
+  width: 420px;
+  height: 230px;
+}
+
+table {
+  /* align-items: center;
+  align-content: center;
+  text-align: center; */
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+#clm {
+  float: left;
+  width: 32.33%;
+  padding: 10px;
+  height: 135px; /* Should be removed. Only for demonstration */
+  margin: 5px;
+  background: linear-gradient(to top);
+  background: linear-gradient(to bottom, grey);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ip {
+  margin: 13px;
+}
+
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.flex-parent-element {
+  display: flex;
+  width: 50%;
+}
+
+.flex-child-element {
+  flex: 1;
+  margin: 10px;
+}
+
+.flex-child-element:first-child {
+  margin-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+footer {
+  margin-top: 400px;
+  background-image: url(world.jpg);
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10px;
+  padding-top: 80px;
+  opacity: 90%;
+}
+
+/*Navbar */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  position: relative;
+}
+
+.logo {
+  /*     float: left; */
+  height: 55.67px;
+  width: 173.72px;
+  margin-right: 50px;
+  /* position: relative; */
+  left: 225px;
+  /*     top: 20px; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin: 0px 25px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  top: 35px;
+  right: 200px;
+}
+
+#navbar {
+  padding: 2px;
+  position: absolute;
+  text-align: left;
+}
+
+#inp {
+  padding: 5px;
+  width: 400px;
+}
+
+input {
+  width: 300px;
+  padding: 5px;
+}
+
+button {
+  background-color: #bb24bb;
+  border: transparent;
+  color: antiquewhite;
+  padding: 5px;
+  width: 300px;
+  margin: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#btn {
+  background-color: #c5903a;
+  color: white;
+  font-weight: bold;
+  border: transparent;
+  padding: 6px;
+  width: auto;
+}
+
+#bn {
+  background-color: lightblue;
+  color: black;
+  font-size: 17px;
+  margin: auto;
+
+  background-color: #c5903a;
+  border: transparent;
+  color: antiquewhite;
+  padding: 5px;
+  width: 300px;
+  margin: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::placeholder {
+  text-align: left;
+}
