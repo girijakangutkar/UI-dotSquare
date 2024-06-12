@@ -233,8 +233,8 @@ button {
 }
 
 #btn {
-  background-color: #c5903a;
-  color: white;
+  background-color: #bbbb24;
+  color: rgb(31, 30, 30);
   font-weight: bold;
   border: transparent;
   padding: 6px;
@@ -247,9 +247,8 @@ button {
   font-size: 17px;
   margin: auto;
 
-  background-color: #c5903a;
+  background-color: #bbbb24;
   border: transparent;
-  color: antiquewhite;
   padding: 5px;
   width: 300px;
   margin: 30px;
